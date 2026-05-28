@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-white/5 py-10 bg-slate-950">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
-          <h2 className="text-xl font-bold gradient-text font-mono tracking-widest mb-1">Rabeya.dev</h2>
+          <h2 className="text-xl font-bold gradient-text font-mono tracking-widest mb-1">Rabeya Khatun</h2>
           <p className="text-slate-500 text-sm">© 2025 Rabeya Khatun. All Rights Reserved.</p>
         </div>
         <div className="flex gap-6">
