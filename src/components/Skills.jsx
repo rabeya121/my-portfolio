@@ -14,7 +14,7 @@ const backend = [
   { name: "MongoDB",    pct: 70 },
   { name: "Firebase",   pct: 68 },
 ];
-const tools = ["Git", "GitHub", "VS Code", "Firebase", "REST APIs", "Responsive Design", "Figma"];
+const tools = ["Git", "GitHub", "VS Code", "Firebase","Better-Auth", "REST APIs", "Responsive Design", "Figma"];
 
 function SkillBar({ name, pct, color, delay }) {
   const ref = useRef(null);
