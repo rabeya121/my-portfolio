@@ -28,7 +28,7 @@ export default function Hero() {
             </span>
           </div>
 
-          {/* Name — একলাইনে, Rabeya Hridi style */}
+          
           <h1 className="text-5xl md:text-[4.2rem] font-extrabold leading-tight tracking-tight mb-4">
             <span className="text-white">Rabeya </span>
             <span className="gradient-text">Khatun</span>

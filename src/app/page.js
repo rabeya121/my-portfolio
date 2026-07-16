@@ -7,19 +7,23 @@ import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
-    <main className="bg-[#0b1326] text-white overflow-hidden">
+    <>
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Education />
-      <Projects />
-      <Experience />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Education />
+        <Experience />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
-    </main>
+      <BackToTop />
+    </>
   );
 }
